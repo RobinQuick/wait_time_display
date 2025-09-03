@@ -84,6 +84,9 @@ export default function ControlPanel() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-400 via-quick-red to-quick-red-dark">
+      {/* Hidden classes to ensure Tailwind generates them */}
+      <div className="hidden bg-white/[0.08] bg-white/[0.12]"></div>
+      
       <header className="flex justify-center py-6">
         <QuickLogo size="lg" />
         <span className="ml-4 text-white font-black text-2xl self-end">Contrôle</span>
