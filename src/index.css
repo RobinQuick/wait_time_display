@@ -15,7 +15,7 @@
 
 @layer components {
   .glass-card {
-    @apply bg-white/8 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl;
+    @apply bg-white/[0.08] backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl;
   }
   
   .btn-primary {
@@ -28,5 +28,26 @@
   
   .input-field {
     @apply flex-1 px-4 py-3 rounded-xl border border-white/25 bg-black/25 text-white placeholder-white/70 outline-none focus:border-white/50 transition-colors;
+  }
+
+  .slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    cursor: pointer;
   }
 }

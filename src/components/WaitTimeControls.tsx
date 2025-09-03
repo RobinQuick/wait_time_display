@@ -86,28 +86,3 @@ export default function WaitTimeControls({ value, onChange }: WaitTimeControlsPr
       </div>
     </div>
   );
-}
-
-/* Custom slider styles */
-<style>
-.slider::-webkit-slider-thumb {
-  appearance: none;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  border: 2px solid rgba(0, 0, 0, 0.05);
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  border: 2px solid rgba(0, 0, 0, 0.05);
-  cursor: pointer;
-}
-</style>
