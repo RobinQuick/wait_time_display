@@ -86,3 +86,4 @@ export default function WaitTimeControls({ value, onChange }: WaitTimeControlsPr
       </div>
     </div>
   );
+}
