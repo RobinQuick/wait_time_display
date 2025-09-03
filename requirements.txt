@@ -1,4 +1,6 @@
 fastapi
 fastapi[all]
-uvicorn
+uvicorn[standard]
 python-dotenv
+python-multipart
+jinja2
